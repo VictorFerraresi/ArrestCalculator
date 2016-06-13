@@ -4,6 +4,7 @@ import br.com.calculator.controller.CrimeController;
 import br.com.calculator.main.ArrestCalculator;
 import br.com.calculator.model.Crime;
 import br.com.calculator.model.Natureza;
+import br.com.calculator.parser.XMLManager;
 import br.com.calculator.utils.NumberUtils;
 import java.awt.Container;
 import java.awt.Dimension;
@@ -13,6 +14,7 @@ import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.File;
 import java.net.URL;
 import java.util.List;
 import javax.swing.BorderFactory;
@@ -278,7 +280,8 @@ public class MenuPrincipal extends javax.swing.JFrame {
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent evt) {
-                
+                XMLManager xmlm = new XMLManager(new File("C:\\temp\\crimes.xml"));                
+                xmlm.saveCrimes(ArrestCalculator.getCrimes());
                 System.exit(0);
             }
         });
