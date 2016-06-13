@@ -21,7 +21,7 @@ public class CrimeController {
     public static void loadCrimes() throws SAXException, IOException, ParserConfigurationException{
         ArrestCalculator.setCrimes(new ArrayList<>());
         
-        XMLManager xmlm = new XMLManager(new File("C:\\temp\\crimes.xml"));
+        XMLManager xmlm = new XMLManager(new File("crimes.xml"));        
         
         Element raiz = xmlm.getDoc().getDocumentElement();
         

@@ -1,6 +1,7 @@
 package br.com.calculator.model;
 
-public class Crime {
+
+public class Crime{
     private String artigo;
     private String nome; 
     private int tempo;

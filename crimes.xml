@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<crimes>
+    <crime>
+        <artigo>101</artigo>
+        <nome>Homicídio</nome>
+        <tempo>180</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>102</artigo>
+        <nome>Induzimento, instigação ou auxílio a suicídio</nome>
+        <tempo>180</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>103</artigo>
+        <nome>Lesão corporal</nome>
+        <tempo>120</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>104</artigo>
+        <nome>Exposição ao perigo</nome>
+        <tempo>30</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>105</artigo>
+        <nome>Omissão de socorro</nome>
+        <tempo>15</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>106</artigo>
+        <nome>Ameaça</nome>
+        <tempo>15</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>107</artigo>
+        <nome>Sequestro e cárcere privado</nome>
+        <tempo>60</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>108</artigo>
+        <nome>Tortura</nome>
+        <tempo>120</tempo>
+        <natureza>PESSOA</natureza>
+    </crime>
+    <crime>
+        <artigo>201</artigo>
+        <nome>Furto</nome>
+        <tempo>60</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>202</artigo>
+        <nome>Roubo</nome>
+        <tempo>90</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>203</artigo>
+        <nome>Extorsão</nome>
+        <tempo>120</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>204</artigo>
+        <nome>Dano</nome>
+        <tempo>15</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>205</artigo>
+        <nome>Estelionato</nome>
+        <tempo>120</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>206</artigo>
+        <nome>Incêndio</nome>
+        <tempo>90</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>207</artigo>
+        <nome>Falsidade ideologica</nome>
+        <tempo>60</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>208</artigo>
+        <nome>Receptação</nome>
+        <tempo>60</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>209</artigo>
+        <nome>Vandalismo</nome>
+        <tempo>25</tempo>
+        <natureza>PATRIMONIO</natureza>
+    </crime>
+    <crime>
+        <artigo>301</artigo>
+        <nome>Estupro</nome>
+        <tempo>180</tempo>
+        <natureza>MORAL</natureza>
+    </crime>
+    <crime>
+        <artigo>302</artigo>
+        <nome>Assédio Sexual</nome>
+        <tempo>60</tempo>
+        <natureza>MORAL</natureza>
+    </crime>
+    <crime>
+        <artigo>303</artigo>
+        <nome>Ato obsceno</nome>
+        <tempo>30</tempo>
+        <natureza>MORAL</natureza>
+    </crime>
+    <crime>
+        <artigo>304</artigo>
+        <nome>Prostituição</nome>
+        <tempo>60</tempo>
+        <natureza>MORAL</natureza>
+    </crime>
+    <crime>
+        <artigo>305</artigo>
+        <nome>Injúria</nome>
+        <tempo>15</tempo>
+        <natureza>MORAL</natureza>
+    </crime>
+    <crime>
+        <artigo>306</artigo>
+        <nome>Racismo</nome>
+        <tempo>60</tempo>
+        <natureza>MORAL</natureza>
+    </crime>
+    <crime>
+        <artigo>401</artigo>
+        <nome>Resistência</nome>
+        <tempo>20</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>402</artigo>
+        <nome>Desobediência</nome>
+        <tempo>10</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>403</artigo>
+        <nome>Desacato</nome>
+        <tempo>10</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>404</artigo>
+        <nome>Corrupção passiva</nome>
+        <tempo>120</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>405</artigo>
+        <nome>Corrupção ativa</nome>
+        <tempo>120</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>406</artigo>
+        <nome>Violência arbitrária</nome>
+        <tempo>30</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>407</artigo>
+        <nome>Comunicação falsa de crime ou contravenção</nome>
+        <tempo>15</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>408</artigo>
+        <nome>Recusa de identificação</nome>
+        <tempo>10</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>409</artigo>
+        <nome>Exercício arbitrário ou abuso de poder</nome>
+        <tempo>60</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>410</artigo>
+        <nome>Evasão mediante violência</nome>
+        <tempo>60</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>411</artigo>
+        <nome>Motim de presos</nome>
+        <tempo>60</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>412</artigo>
+        <nome>Favorecimento real</nome>
+        <tempo>60</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>413</artigo>
+        <nome>Não pagamento de multas</nome>
+        <tempo>60</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>414</artigo>
+        <nome>Peculato</nome>
+        <tempo>240</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>415</artigo>
+        <nome>Ocultação de bens, direitos e valores</nome>
+        <tempo>120</tempo>
+        <natureza>ADMINISTRACAO</natureza>
+    </crime>
+    <crime>
+        <artigo>501</artigo>
+        <nome>Incitação ao crime</nome>
+        <tempo>15</tempo>
+        <natureza>PAZ</natureza>
+    </crime>
+    <crime>
+        <artigo>502</artigo>
+        <nome>Apologia de crime ou criminoso</nome>
+        <tempo>15</tempo>
+        <natureza>PAZ</natureza>
+    </crime>
+    <crime>
+        <artigo>503</artigo>
+        <nome>Associação criminosa</nome>
+        <tempo>60</tempo>
+        <natureza>PAZ</natureza>
+    </crime>
+    <crime>
+        <artigo>503-A</artigo>
+        <nome>Constituição de milícia privada</nome>
+        <tempo>120</tempo>
+        <natureza>PAZ</natureza>
+    </crime>
+    <crime>
+        <artigo>504</artigo>
+        <nome>Perturbação da ordem</nome>
+        <tempo>15</tempo>
+        <natureza>PAZ</natureza>
+    </crime>
+    <crime>
+        <artigo>505</artigo>
+        <nome>Perturbação da paz</nome>
+        <tempo>15</tempo>
+        <natureza>PAZ</natureza>
+    </crime>
+    <crime>
+        <artigo>506</artigo>
+        <nome>Obstrução Facial</nome>
+        <tempo>15</tempo>
+        <natureza>PAZ</natureza>
+    </crime>
+    <crime>
+        <artigo>601</artigo>
+        <nome>Tráfico de entorpecentes</nome>
+        <tempo>120</tempo>
+        <natureza>SAUDE</natureza>
+    </crime>
+    <crime>
+        <artigo>602</artigo>
+        <nome>Facilitação ao trafico de entorpecentes</nome>
+        <tempo>120</tempo>
+        <natureza>SAUDE</natureza>
+    </crime>
+    <crime>
+        <artigo>603</artigo>
+        <nome>Posse de substância entorpecente para consumo</nome>
+        <tempo>0</tempo>
+        <natureza>SAUDE</natureza>
+    </crime>
+    <crime>
+        <artigo>604</artigo>
+        <nome>Regulamentação do uso da maconha para fins medicinais</nome>
+        <tempo>0</tempo>
+        <natureza>SAUDE</natureza>
+    </crime>
+    <crime>
+        <artigo>605</artigo>
+        <nome>Posse de um recipiente de bebida alcoólica aberto</nome>
+        <tempo>0</tempo>
+        <natureza>SAUDE</natureza>
+    </crime>
+    <crime>
+        <artigo>606</artigo>
+        <nome>Entoxicação pública</nome>
+        <tempo>15</tempo>
+        <natureza>SAUDE</natureza>
+    </crime>
+    <crime>
+        <artigo>607</artigo>
+        <nome>Embriaguez pública</nome>
+        <tempo>15</tempo>
+        <natureza>SAUDE</natureza>
+    </crime>
+    <crime>
+        <artigo>701</artigo>
+        <nome>Crueldade contra animais</nome>
+        <tempo>10</tempo>
+        <natureza>DEPENDENTES</natureza>
+    </crime>
+    <crime>
+        <artigo>702</artigo>
+        <nome>Maus tratos</nome>
+        <tempo>30</tempo>
+        <natureza>DEPENDENTES</natureza>
+    </crime>
+    <crime>
+        <artigo>703</artigo>
+        <nome>Consumo de bebida alcoólica por menor ou incapaz</nome>
+        <tempo>0</tempo>
+        <natureza>DEPENDENTES</natureza>
+    </crime>
+    <crime>
+        <artigo>801</artigo>
+        <nome>Homicídio na direção de um veículo automotor</nome>
+        <tempo>60</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>802</artigo>
+        <nome>Lesão corporal na direção de um veículo automotor</nome>
+        <tempo>25</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>803</artigo>
+        <nome>Omissão de socorro na direção de um veículo automotor</nome>
+        <tempo>15</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>804</artigo>
+        <nome>Evasão da cena de acidente</nome>
+        <tempo>15</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>805</artigo>
+        <nome>Condução sob efeito de álcool ou substâncias psicoativas</nome>
+        <tempo>60</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>806</artigo>
+        <nome>Dirigir com a habilitação suspensa ou cassada</nome>
+        <tempo>60</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>807</artigo>
+        <nome>Praticar corridas ilegais</nome>
+        <tempo>60</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>808</artigo>
+        <nome>Dirigir sem habilitação</nome>
+        <tempo>25</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>809</artigo>
+        <nome>Direção perigosa</nome>
+        <tempo>30</tempo>
+        <natureza>TRANSITO</natureza>
+    </crime>
+    <crime>
+        <artigo>901</artigo>
+        <nome>Posse ilegal de arma de fogo de uso permitido</nome>
+        <tempo>60</tempo>
+        <natureza>ARMAS</natureza>
+    </crime>
+    <crime>
+        <artigo>902</artigo>
+        <nome>Porte ilegal de arma de fogo de uso permitido</nome>
+        <tempo>90</tempo>
+        <natureza>ARMAS</natureza>
+    </crime>
+    <crime>
+        <artigo>903</artigo>
+        <nome>Posse ou porte ilegal de arma de fogo de uso restrito</nome>
+        <tempo>120</tempo>
+        <natureza>ARMAS</natureza>
+    </crime>
+    <crime>
+        <artigo>904</artigo>
+        <nome>Comércio ilegal de arma de fogo</nome>
+        <tempo>180</tempo>
+        <natureza>ARMAS</natureza>
+    </crime>
+    <crime>
+        <artigo>905</artigo>
+        <nome>Disparar uma arma de fogo</nome>
+        <tempo>60</tempo>
+        <natureza>ARMAS</natureza>
+    </crime>
+    <crime>
+        <artigo>906</artigo>
+        <nome>Brandir uma arma de fogo</nome>
+        <tempo>30</tempo>
+        <natureza>ARMAS</natureza>
+    </crime>
+    <crime>
+        <artigo>907</artigo>
+        <nome>Posse de artefato explosivo</nome>
+        <tempo>60</tempo>
+        <natureza>ARMAS</natureza>
+    </crime>
+</crimes>

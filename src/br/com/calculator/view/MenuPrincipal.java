@@ -16,6 +16,8 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
 import java.net.URL;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import javax.swing.BorderFactory;
 import javax.swing.BoxLayout;
@@ -280,8 +282,14 @@ public class MenuPrincipal extends javax.swing.JFrame {
         this.addWindowListener(new WindowAdapter() {
             @Override
             public void windowClosing(WindowEvent evt) {
-                XMLManager xmlm = new XMLManager(new File("C:\\temp\\crimes.xml"));                
-                xmlm.saveCrimes(ArrestCalculator.getCrimes());
+                XMLManager xmlm = new XMLManager(new File("crimes.xml"));                
+                Collections.sort(ArrestCalculator.getCrimes(), new Comparator<Crime>() {
+                    @Override
+                    public int compare(Crime c1, Crime c2) {
+                        return c1.getArtigo().compareTo(c2.getArtigo());
+                    }
+                });
+                xmlm.saveCrimes(ArrestCalculator.getCrimes());                
                 System.exit(0);
             }
         });

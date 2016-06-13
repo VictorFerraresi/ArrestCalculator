@@ -3,7 +3,8 @@ package br.com.calculator.parser;
 import br.com.calculator.model.Crime;
 import br.com.calculator.model.Natureza;
 import java.io.File;
-import java.io.FileWriter;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
 import java.util.logging.Level;
@@ -29,8 +30,9 @@ public class XMLManager {
         try {
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
-            doc = db.parse(file);
-        } catch (SAXException | IOException | ParserConfigurationException ex) {
+            FileInputStream in = new FileInputStream(file);
+            doc = db.parse(in, "UTF-8");            
+        } catch (ParserConfigurationException | SAXException | IOException ex) {
             Logger.getLogger(XMLManager.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -92,7 +94,7 @@ public class XMLManager {
 
             DOMSource source = new DOMSource(docSave);
             try {
-                FileWriter fos = new FileWriter("C:\\temp\\crimes.xml");
+                FileOutputStream fos = new FileOutputStream("crimes.xml");
                 StreamResult result = new StreamResult(fos);
                 aTransformer.transform(source, result);
 
